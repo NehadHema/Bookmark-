@@ -1,0 +1,114 @@
+body {
+    font-family: arial;
+    background-color: gray;
+}
+
+/* Header Section Starts */
+header .container {
+    color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #999;
+    font-size: 25px;
+}
+
+header .container h3 {
+    font-size: 1.17em;
+}
+
+/* Header Section Ends */
+
+
+/* Content Section Starts */
+
+.container {
+    width: 80%;
+    margin: 15px auto;
+    padding: 0 15px;
+}
+
+.container .inputType {
+    background-color: rgb(168, 167, 167);
+    padding: 30px;
+}
+
+ h2 {
+    font-size: 1.5em;
+}
+
+.container .inputType p {
+    color: #333;
+    font-weight: bold;
+}
+
+.container .inputType input {
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+    max-height: 2em;
+}
+
+.container .inputType .alert {
+    display: none;
+    padding: 5px;
+    margin: 10px;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.container .inputType .alert-error {
+    background-color: #ffb2b2;
+    color: #6d0000;
+
+    border: 1px solid #6d0000;
+}
+
+ .btn {
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 15px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: fit-content;
+}
+
+ .btn:hover {
+    box-shadow: 2px 5px 3px 0px #888;
+}
+
+/* Content Section Ends */
+
+
+.container .row{
+    background-image: linear-gradient(#EEE,#FFF);
+    margin: 10px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.container .row h2 {
+    width: 30%;
+    color: #333;
+}
+.container .tableRaw{
+    font-weight: bold!important;
+}
+
+/* Footer Section Starts */
+
+footer .container {
+    padding: 20px;
+    border-top: 1px solid #999;
+    font-size: 14px;
+}
+
+footer .container p {
+    color: #fff;
+}
+
+/* Footer Section Ends */
